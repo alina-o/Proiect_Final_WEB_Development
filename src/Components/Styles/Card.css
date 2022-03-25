@@ -1,0 +1,571 @@
+.cards {
+  padding: 4rem;
+  background: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.cards__items {
+  margin-bottom: 100px;
+  
+}
+
+.cards__item {
+  display: flex;
+  flex: 1;
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+.cards__item__link {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+
+.cards__item__pic-wrap1 {
+  background: url("../Images/fantasy.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  padding-top: 300px;
+  overflow: hidden;
+  
+
+}
+
+.cards__item__pic-wrap2 {
+  background: url("../Images/sciencefiction.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  padding-top: 300px;
+  overflow: hidden;
+}
+
+.cards__item__pic-wrap3 {
+  background: url("../Images/romance.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  padding-top: 300px;
+  overflow: hidden;
+}
+
+.cards__item__pic-wrap4 {
+  background: url("../Images/historical.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  padding-top: 300px;
+  overflow: hidden;
+}
+
+.cards__item__pic-wrap5 {
+  background: url("../Images/nonfiction.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  padding-top: 300px;
+  overflow: hidden;
+ 
+}
+
+
+.cards__item__pic-wrap6
+{
+  background: url("../Images/Highorepicfantasy.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px ;
+
+ 
+}
+
+.cards__item__pic-wrap7
+{
+  background: url("../Images/low-fantasy.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+     
+}
+
+.cards__item__pic-wrap8
+{
+  background: url("../Images/magic-realism.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+.cards__item__pic-wrap9
+{
+  background: url("../Images/sword-sorcery.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap10
+{
+  background: url("../Images/dark-fantasy.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+.cards__item__pic-wrap11
+{
+  background: url("../Images/fables.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap12
+{
+  background: url("../Images/parallel-worlds.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap13
+{
+  background: url("../Images/dystopian.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap14
+{
+  background: url("../Images/hard.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+.cards__item__pic-wrap15
+{
+  background: url("../Images/space-opera.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap16
+{
+  background: url("../Images/Apocalyptic.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap17
+{
+  background: url("../Images/contemporary.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+
+
+.cards__item__pic-wrap18
+{
+  background: url("../Images/fantasyromance.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+.cards__item__pic-wrap19
+{
+  background: url("../Images/historical-romance.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+.cards__item__pic-wrap20
+{
+  background: url("../Images/young.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap21
+{
+  background: url("../Images/speculative.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+
+.cards__item__pic-wrap22
+{
+  background: url("../Images/suspense.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap23
+{
+  background: url("../Images/traditional-h.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap24
+{
+  background: url("../Images/series.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap25
+{
+  background: url("../Images/western.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+.cards__item__pic-wrap26
+{
+  background: url("../Images/mysteries.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap27
+{
+  background: url("../Images/time-travel.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap28
+{
+  background: url("../Images/historical-romance-f.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+.cards__item__pic-wrap29
+{
+  background: url("../Images/historical-nonfiction.jpeg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+.cards__item__pic-wrap30
+{
+  background: url("../Images/autobiography.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap31
+{
+  background: url("../Images/academic.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap32
+{
+  background: url("../Images/philosophy.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap33
+{
+  background: url("../Images/humor.jpg") center no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+
+.cards__item__pic-wrap34
+{
+  background: url("../Images/self.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 500px;
+  display: flex;
+  position: relative;
+  padding-top: 500px;
+  overflow: hidden;
+ 
+}
+
+.cards__item__pic-wrap35{
+  background: url("../Images/mystery.jpg") center/cover no-repeat;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  padding-top: 300px;
+  overflow: hidden;
+
+}
+.cards__item__pic-wrap36{
+  background: url("../Images/detective.jpg") center no-repeat;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  padding-top: 300px;
+  overflow: hidden;
+
+}
+
+.cards__item__pic-wrap37{
+  background: url("../Images/cozy.jpg") center no-repeat;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  padding-top: 300px;
+  overflow: hidden;
+
+}
+.cards__item__pic-wrap38{
+  background: url("../Images/police.webp") center/cover no-repeat;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  padding-top: 300px;
+  overflow: hidden;
+
+}
+.cards__item__pic-wrap39{
+  background: url("../Images/coper.jpg") center no-repeat;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  position: relative;
+  padding-top: 300px;
+  overflow: hidden;
+
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+}
+
+
+
+.cards__item__pic-wrap1
+.cards__item__pic-wrap2
+.cards__item__pic-wrap3
+.cards__item__pic-wrap4
+.cards__item__pic-wrap5 
+.cards__item__pic-wrap6 
+::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  box-sizing: border-box;
+}
+
+.cards__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.cards__item__img:hover {
+  transform: scale(1.1);
+}
+
+.cards__item__info {
+  padding: 20px 30px 30px;
+}
+
+.cards__item__text {
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+}
+
